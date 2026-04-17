@@ -10,8 +10,8 @@ Full replication files and code that extract and refine CCC protest data and cre
    
    d. Information on state political party and control breakdown for 2025, according to the National Conference of State Legislatures (Replicationpolitical_party_breakdown.xlsx)
    
-4. Output files produced from the R code
-5. 
+3. Output files produced from the R code
+ 
    a. The visualization submitted (ReplicationVisual.png)
    
    b. Descriptive statistics of my analytical sample (DescriptiveStatistics.csv)

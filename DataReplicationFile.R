@@ -830,10 +830,10 @@ p_bar <- ggplot(bar_df, aes(x = bar_label, y = pct_change, fill = fill_var)) +
   geom_hline(yintercept = 0, colour = "black", linewidth = 0.4) +
   geom_text(
     aes(
-      y     = ifelse(abs(pct_change) < 40,
+      y     = ifelse(abs(pct_change) < 50,
                      ifelse(pct_change < 0, -2, 2),
                      ifelse(pct_change < 0, pct_change + 3, pct_change - 3)),
-      hjust = ifelse(abs(pct_change) < 40,
+      hjust = ifelse(abs(pct_change) < 50,
                      ifelse(pct_change < 0, 1, 0),
                      ifelse(pct_change < 0, 0, 1)),
       label = label_text),

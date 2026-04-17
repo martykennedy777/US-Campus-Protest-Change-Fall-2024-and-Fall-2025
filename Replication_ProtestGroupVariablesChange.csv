@@ -1,0 +1,37 @@
+"public","pal","state_politics","region","arrests","2024","2025","pct_change"
+"Private",NA,"Democratic-State",NA,NA,501,127,-74.6506986027944
+"Private",NA,"Republican-State",NA,NA,136,35,-74.2647058823529
+"Public",NA,"Democratic-State",NA,NA,379,73,-80.7387862796834
+"Public",NA,"Republican-State",NA,NA,463,98,-78.8336933045356
+"Private",NA,NA,"midwest",NA,96,6,-93.75
+"Private",NA,NA,"northeast",NA,405,120,-70.3703703703704
+"Private",NA,NA,"south",NA,60,36,-40
+"Private",NA,NA,"west",NA,76,0,-100
+"Public",NA,NA,"midwest",NA,242,63,-73.9669421487603
+"Public",NA,NA,"northeast",NA,197,26,-86.8020304568528
+"Public",NA,NA,"south",NA,205,48,-76.5853658536585
+"Public",NA,NA,"west",NA,198,34,-82.8282828282828
+"Private",NA,NA,NA,"No Arrests",404,103,-74.5049504950495
+"Private",NA,NA,NA,"Arrests",233,59,-74.6781115879828
+"Public",NA,NA,NA,"No Arrests",430,113,-73.7209302325581
+"Public",NA,NA,NA,"Arrests",412,58,-85.9223300970874
+"Private","Non-Gaza Related",NA,NA,NA,71,119,67.6056338028169
+"Private","Gaza Related",NA,NA,NA,566,43,-92.4028268551237
+"Public","Non-Gaza Related",NA,NA,NA,210,122,-41.9047619047619
+"Public","Gaza Related",NA,NA,NA,632,49,-92.246835443038
+NA,"Non-Gaza Related","Democratic-State",NA,NA,91,170,86.8131868131868
+NA,"Gaza Related","Democratic-State",NA,NA,789,30,-96.1977186311787
+NA,"Non-Gaza Related","Republican-State",NA,NA,190,71,-62.6315789473684
+NA,"Gaza Related","Republican-State",NA,NA,409,62,-84.841075794621
+NA,"Non-Gaza Related",NA,"midwest",NA,66,39,-40.9090909090909
+NA,"Gaza Related",NA,"midwest",NA,272,30,-88.9705882352941
+NA,"Non-Gaza Related",NA,"northeast",NA,94,100,6.38297872340426
+NA,"Gaza Related",NA,"northeast",NA,508,46,-90.9448818897638
+NA,"Non-Gaza Related",NA,"south",NA,64,76,18.75
+NA,"Gaza Related",NA,"south",NA,201,8,-96.0199004975124
+NA,"Non-Gaza Related",NA,"west",NA,57,26,-54.3859649122807
+NA,"Gaza Related",NA,"west",NA,217,8,-96.3133640552995
+NA,"Non-Gaza Related",NA,NA,"No Arrests",165,163,-1.21212121212121
+NA,"Gaza Related",NA,NA,"No Arrests",669,53,-92.0777279521674
+NA,"Non-Gaza Related",NA,NA,"Arrests",116,78,-32.7586206896552
+NA,"Gaza Related",NA,NA,"Arrests",529,39,-92.6275992438563

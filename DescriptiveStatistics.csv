@@ -1,0 +1,27 @@
+"","**Characteristic**","**N = 1,812**"
+"1","year",NA
+"2","2024","1,479 (82%)"
+"3","2025","333 (18%)"
+"4","month.desc",NA
+"5","August","166 (9.2%)"
+"6","December","154 (8.5%)"
+"7","November","312 (17%)"
+"8","October","784 (43%)"
+"9","September","396 (22%)"
+"10","public",NA
+"11","Private","799 (44%)"
+"12","Public","1,013 (56%)"
+"13","region",NA
+"14","midwest","407 (22%)"
+"15","northeast","748 (41%)"
+"16","south","349 (19%)"
+"17","west","308 (17%)"
+"18","state_politics",NA
+"19","Democratic-State","1,080 (60%)"
+"20","Republican-State","732 (40%)"
+"21","pal",NA
+"22","Gaza Related","1,290 (71%)"
+"23","Non-Gaza Related","522 (29%)"
+"24","arrests",NA
+"25","Arrests","762 (42%)"
+"26","No Arrests","1,050 (58%)"

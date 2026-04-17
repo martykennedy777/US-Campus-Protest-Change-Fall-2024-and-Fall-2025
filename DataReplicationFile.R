@@ -812,7 +812,7 @@ bar_df <- bind_rows(year_bar_row, solo_keep, groups_keep) %>%
 
 #Section display labels
 section_labels <- c(
-  "Overall"                                = "Overall\nChange",
+  "Overall"                                = "Total",
   "School Region"                          = "School\nRegion",
   "School Public or Private Status"        = "School\nType",
   "Political Makeup of School's State"     = "State\nPolitics",
@@ -820,7 +820,7 @@ section_labels <- c(
   "Gaza-Related"                           = "Gaza\nProtests",
   "School Status \u00d7 Gaza-Related"      = "Gaza x\nSchool Type",
   "Political Makeup \u00d7 Gaza-Related"   = "Gaza x\nState Politics",
-  "Schools with Arrests over Gaza Protests"= "Gaza Protests\nArrests \nat School",
+  "Schools with Arrests over Gaza Protests"= "Gaza \nProtest\nArrests \nat School",
   "School Status \u00d7 Arrests"           = "Arrests x\nSchool Type",
   "Arrests \u00d7 Gaza-Related"            = "Arrests x\nGaza")
 
@@ -849,6 +849,7 @@ p_bar <- ggplot(bar_df, aes(x = bar_label, y = pct_change, fill = fill_var)) +
     labeller = labeller(section = as_labeller(section_labels))) +
   scale_fill_manual(values = var_colors, guide = "none") +
   scale_y_continuous(labels = function(x) paste0(x, "%")) +
+  coord_cartesian(clip = "on") +
   labs(
     title    = "Percent Change in US Student Protest Count Based on College and Protest Factors \u2014 Fall 2024 v. Fall 2025",
     subtitle = "Bar labels show % change (Fall 2024 count \u2192 Fall 2025 count)",
@@ -860,11 +861,12 @@ p_bar <- ggplot(bar_df, aes(x = bar_label, y = pct_change, fill = fill_var)) +
     axis.text.y      = element_text(size = 9),
     axis.title.y     = element_text(size = 10, margin = margin(r = 6)),
     strip.text.x     = element_text(face = "bold", size = 7, lineheight = 0.85),
+    strip.clip       = "off",                          # ADD
     strip.background = element_rect(fill = "grey90", colour = NA),
-    panel.spacing    = unit(0.5, "lines"),
+    panel.spacing    = unit(0.8, "lines"),             # CHANGED from 0.5
+    plot.margin      = margin(t = 10, r = 20, b = 10, l = 10),  # ADD
     plot.title       = element_text(face = "bold", size = 13, margin = margin(b = 4)),
     plot.subtitle    = element_text(size = 9, colour = "#555520", margin = margin(b = 10)))
-
 
 ######################################
 #Step 4: Make one visual
@@ -876,5 +878,5 @@ p_combined <- p_monthly / p_bar +
     theme = theme(
       plot.title = element_text(face = "bold", size = 15, margin = margin(b = 6))))
 
-ggsave("Output/ReplicationVisual.png",p_combined, width = 16, height = 12, dpi = 150)
+ggsave("Output/ReplicationVisual.png", p_combined, width = 11, height = 8.5, dpi = 600)
 
